@@ -55,3 +55,16 @@ body{
  .slider span:hover img{
    transform: translateY(-50px) scale(1.2);
  }
+
+
+   
+ @media only screen and (max-width:600px) {
+     /* your css styles for size smaller than 600px */
+      }
+ 
+ @media only screen and (min-width:600px) and (max-width: 900px) {
+     /* your css styles for size between 600px than 900px */
+ }
+ @media only screen and (max-width: 900px) {
+     /* your css styles for size larger than 600px */
+ }
